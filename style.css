@@ -1,0 +1,39 @@
+body {
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    border: none; /* Adicionado para um visual mais limpo */
+    padding: 10px 20px; /* Adicionado para botões com melhor "clicabilidade" */
+    cursor: pointer; /* Adicionado para indicar que é clicável */
+    border-radius: 5px; /* Adicionado para bordas arredondadas */
+}
+
+/* Esconde os passos por padrão */
+.passo {
+    display: none;
+}
+
+/* Mostra o passo ativo */
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
